@@ -1,0 +1,171 @@
+@keyframes pisca {
+    0%{opacity: 0.2;}
+    50%{opacity: 1;}
+    100%{opacity: 0.2;}
+}
+
+
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.urna{
+ background-color: #dbd5c9;
+ padding: 30px;
+ display: flex;
+ margin-top: 50px;
+}
+.tela{
+    width: 500px;
+    height: 350px;
+    background: linear-gradient(to right , #e8e8e8, #c1c1c1);
+    border: 2px solid rgba(0, 0, 0, 0.589);
+    display: flex;
+    flex-direction: column;
+}
+.teclado{
+    background-color: #403A3A;
+    margin-left: 30px;
+    
+
+}
+
+.teclado-linhas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-items: flex-end;
+    
+    
+}
+
+.teclado-botao{
+    width: 70px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    box-shadow: 1px 1px 1px rgb(85, 84, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn-branco{
+    background-color: white;
+    padding: 10px;
+    color: #000;
+    font-size: 15px;
+}
+
+.btn-corrigir{
+    background-color: tomato;
+    padding: 10px;
+    color: black;
+    font-size: 15px;
+}
+.btn-confirmar{
+    padding: 12px;
+    background-color: rgb(11, 230, 77);
+    color: black;
+    font-size: 15px;
+}
+.d-1{
+    flex: 1;
+    display: flex;
+}
+
+.d-2{
+    border-top: 2px solid black;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.confirmar{
+    color: rgb(34, 63, 5);
+}
+.corrigir{
+    color: coral;
+}
+.d1-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.d1-1{
+    height: 50px;
+    
+    display: flex;
+    align-items: center;
+}
+.d1-2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d1-3{
+    height: 50px;
+}
+.d1-4{
+    flex: 1;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.d1-right{
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.d1-image{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;  
+    font-size: 14px;
+}
+.d1-image img{
+    width: 100%;
+}
+.small{
+    width: 80%;
+    font-size: 10px;
+}
+.numero{
+    display:inline-block;
+    width: 30px;
+    height: 40px;
+    border: 1px solid black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+
+}
+.pisca{
+    animation-name: pisca;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+.aviso-grande{
+    font-size: 40px;
+    font-weight: bold;
+}
+.aviso-gigante{
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
